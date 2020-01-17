@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Builders Clima
 
-## Available Scripts
+Essa aplicação é um simples demonstrativo de utilizar uma api para obter os dados do clima onde o usuário está localizado e exibir os dados do clima dessa localização, utilizando api de geolacalização do navegador.
 
-In the project directory, you can run:
+É possível ver o clima da sua localização atual, e também buscar uma cidade específica para visualizar o clima de onde você quiser. =)
 
-### `yarn start`
+#### Bibliotecas utilizadas construção do projeto
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- Axios
+- Moment
+- Redux
+- Redux-Saga
+- Styled Components
+- FontAwesme
+- React Toastify
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### Como rodar o projeto?
 
-### `yarn test`
+Basta criar um arquivo .env na raiz do projeto, seguindo o .env.example. Instalar as dependências com o comando `yarn`, e por fim basta rodar `yarn start`.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Layout
 
-### `yarn build`
+##### Web
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./src/assets/layoutWeb1.png?w)
+![](./src/assets/layoutWeb2.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+##### Tablet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](./src/assets/layoutTablet1.png)
+![](./src/assets/layoutTablet2.png)
 
-### `yarn eject`
+##### Celular
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![](./src/assets/layoutMobile1.png)
+![](./src/assets/layoutMobile2.png)
