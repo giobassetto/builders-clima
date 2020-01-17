@@ -29,7 +29,7 @@ Basta criar um arquivo .env na raiz do projeto, seguindo o .env.example. Instala
 ##### Tablet
 
 ![](./src/assets/layoutTablet1.png)
-![](./src/assets/layoutTablet2.png)
+![](./src/assets/layoutTable2.png)
 
 ##### Celular
 
