@@ -17,7 +17,7 @@ Essa aplicação é um simples demonstrativo de utilizar uma api para obter os d
 
 #### Como rodar o projeto?
 
-Basta criar um arquivo .env na raiz do projeto, seguindo o .env.example. Instalar as dependências com o comando `yarn`, e por fim basta rodar `yarn start`.
+Basta criar um arquivo .env na raiz do projeto, seguindo o .env.example. Instalar as dependências com o comando `yarn`, e por fim rodar `yarn start`.
 
 #### Layout
 
